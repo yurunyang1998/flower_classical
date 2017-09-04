@@ -1,6 +1,6 @@
 import  tensorflow as tf
 from  define_model_function import  *
-
+###change
 x = tf.placeholder(tf.float32, shape=[None,None,2352])
 y = tf.placeholder(tf.float32, shape=[None, 5])
 x_image = tf.reshape(x,shape=[-1,28,28,3])
